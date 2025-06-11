@@ -24,19 +24,19 @@ body {
 
 section {
     min-height: 100vh;
-    margin: 0 10%;
+    margin: 0 20%;
     padding-top: 6rem;
 }
 
 /* highlight */
 span {
-    background: linear-gradient(170deg, #1E90FF, #0066CC);
+    background: linear-gradient(135deg, #007BFF, #8E44AD);
     background-clip: text;
     color: transparent;
 }
 
 .my-img {
-    width: 34vw;
+    width: 24vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.3s ease-in-out;
@@ -68,7 +68,7 @@ span {
 }
 
 .heading {
-    font-size: 7rem;
+    font-size: 4rem;
     text-align: center;
     margin: 5rem 0 3rem 0;
 }
