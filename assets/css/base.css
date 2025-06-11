@@ -1,0 +1,74 @@
+:root {
+    --main-color: #1e90ff;
+    --background-color: #f5f7f9;
+    --text-color: #333;
+    --boder-color: #dbdbdb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    margin: 0 10%;
+    padding-top: 6rem;
+}
+
+/* highlight */
+span {
+    background: linear-gradient(170deg, #1E90FF, #0066CC);
+    background-clip: text;
+    color: transparent;
+}
+
+.my-img {
+    width: 34vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+.my-img:hover {
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(30, 144, 255, 0.6);
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+}
+
+.heading {
+    font-size: 7rem;
+    text-align: center;
+    margin: 5rem 0 3rem 0;
+}
